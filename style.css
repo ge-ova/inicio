@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Rockidz Demo;
+    src: url(fonts/Rockidz\ Demo.ttf);
+    font-family: Tytoon Mist;
+    src: url(fonts/Tytoon\ Mist.ttf);
+    font-family: Star Choco;
+    src: url(fonts/Star\ Choco.ttf)
+}
+
+.titulo{
+    text-align: center;
+    font-size: 120px;
+    font-family: Rockidz Demo;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: #079e2d;
+    text-shadow: 5px -5px 5px rgb(20, 20, 20);
+}
+
+.imggif{
+    text-align: center;
+}
+
+/*Introduccion*/
+.titulointroduccion{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    text-shadow: 3px 4PX 1pX #070707;
+    background: linear-gradient(#e8e6eb, #62aae6);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 115px;
+    font-family: Rockidz Demo;
+    
+}
+
+.niño-texto{
+    width: 450px;
+}
+
+/*Modulos*/
+.contenido{
+    text-align: center;
+    font-size: 180px;
+    font-family: Rockidz Demo;
+    margin-bottom: 1px;
+    margin-top: 100px;
+    color: rgb(3, 3, 3);
+    text-shadow: 5px -5px 5px rgb(238, 10, 10);
+}
+
+/*Modulo 1*/
+.limitesgeograficos{
+    -webkit-background-clip: text;
+    color: rgb(241, 241, 241);
+    text-align: center;
+    margin-top: 40px;
+    font-size: 115px;
+    font-family: Rockidz Demo;
+    text-shadow: 
+        3px 3px 1px rgb(17, 17, 17),
+        5px 5px 2px rgb(255, 0, 0),
+        8px 8px 3px rgb(24, 19, 19)
+    
+}
+
+/*Modulo 2*/
+.importanciadelasfronteras{
+    /*background: linear-gradient(#00eeff 17%, #14ff47);*/
+    -webkit-background-clip: text;
+    color: rgb(241, 241, 241);
+    text-align: center;
+    margin-top: 40px;
+    font-size: 115px;
+    font-family: Rockidz Demo;
+    text-shadow: 
+        3px 3px 1px rgb(17, 17, 17),
+        5px 5px 2px rgb(255, 0, 0),
+        8px 8px 3px rgb(24, 19, 19);
+}
+
+/*Modulo 3*/
+.divisionpolitica{
+    -webkit-background-clip: text;
+    color: rgb(241, 241, 241);
+    text-align: center;
+    margin-top: 110px;
+    font-size: 115px;
+    font-family: Rockidz Demo;
+    text-shadow: 
+        3px 3px 1px rgb(17, 17, 17),
+        5px 5px 2px rgb(255, 0, 0),
+        8px 8px 3px rgb(24, 19, 19);
+}
+
+/*Saberes Previos*/
+.saberesprevios{
+    text-align: center;
+    font-size: 100px;
+    font-family: Rockidz Demo;
+    color: aliceblue;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-shadow:     
+        3px 3px 1px rgb(17, 17, 17),
+        5px 5px 2px rgb(20, 2, 99),
+        8px 8px 3px rgb(24, 19, 19);
+}
+
+.subtitulossaberesp{
+    font-size: 50px;
+    font-family: Star Choco;
+    color: rgb(255, 0, 0);
+    margin-bottom: 1px;
+    text-shadow: 
+        3px 3px 1px rgb(17, 17, 17),
+        5px 5px 2px rgb(233, 233, 233),
+        8px 8px 3px rgb(24, 19, 19);
+}
+
+.ayudatitulo{
+    font-size: 80px;
+    font-family: Star Choco;
+    color: rgb(255, 0, 0);
+    margin-top: 30px;
+    margin-bottom: 1px;
+    text-shadow: 
+        3px 3px 1px rgb(17, 17, 17),
+        5px 5px 2px rgb(233, 233, 233),
+        8px 8px 3px rgb(24, 19, 19);
+}
+/*Botones de navegacion*/
+.bnavegacion{
+    height: 60px;
+    width: 200px;
+    transition: 0.5s;
+}
+
+.bnavegacion:hover{
+    transform: scale(1.25);
+    transition: 1s;
+}
+
+.bredondos{
+    width: 90px;
+    margin-left: 10px;
+    transition: 0.5s;  
+}
+
+.bredondos:hover{
+    transform: scale(1.25);
+    transition: 1s;
+}
+
+/*Actividad*/
+.actm1{
+    width: 100%;
+}
